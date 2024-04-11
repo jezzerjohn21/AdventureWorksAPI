@@ -1,0 +1,14 @@
+C:\DOTnetproj\Proj\AdventureWorksAPI\AdventureWorkPersistence\bin\Debug\net8.0\AdventureWorkPersistence.deps.json
+C:\DOTnetproj\Proj\AdventureWorksAPI\AdventureWorkPersistence\bin\Debug\net8.0\AdventureWorkPersistence.runtimeconfig.json
+C:\DOTnetproj\Proj\AdventureWorksAPI\AdventureWorkPersistence\bin\Debug\net8.0\AdventureWorkPersistence.dll
+C:\DOTnetproj\Proj\AdventureWorksAPI\AdventureWorkPersistence\bin\Debug\net8.0\AdventureWorkPersistence.pdb
+C:\DOTnetproj\Proj\AdventureWorksAPI\AdventureWorkPersistence\obj\Debug\net8.0\AdventureWorkPersistence.csproj.AssemblyReference.cache
+C:\DOTnetproj\Proj\AdventureWorksAPI\AdventureWorkPersistence\obj\Debug\net8.0\AdventureWorkPersistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\DOTnetproj\Proj\AdventureWorksAPI\AdventureWorkPersistence\obj\Debug\net8.0\AdventureWorkPersistence.AssemblyInfoInputs.cache
+C:\DOTnetproj\Proj\AdventureWorksAPI\AdventureWorkPersistence\obj\Debug\net8.0\AdventureWorkPersistence.AssemblyInfo.cs
+C:\DOTnetproj\Proj\AdventureWorksAPI\AdventureWorkPersistence\obj\Debug\net8.0\AdventureWorkPersistence.csproj.CoreCompileInputs.cache
+C:\DOTnetproj\Proj\AdventureWorksAPI\AdventureWorkPersistence\obj\Debug\net8.0\AdventureWorkPersistence.dll
+C:\DOTnetproj\Proj\AdventureWorksAPI\AdventureWorkPersistence\obj\Debug\net8.0\refint\AdventureWorkPersistence.dll
+C:\DOTnetproj\Proj\AdventureWorksAPI\AdventureWorkPersistence\obj\Debug\net8.0\AdventureWorkPersistence.pdb
+C:\DOTnetproj\Proj\AdventureWorksAPI\AdventureWorkPersistence\obj\Debug\net8.0\AdventureWorkPersistence.genruntimeconfig.cache
+C:\DOTnetproj\Proj\AdventureWorksAPI\AdventureWorkPersistence\obj\Debug\net8.0\ref\AdventureWorkPersistence.dll
