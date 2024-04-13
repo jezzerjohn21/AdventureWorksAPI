@@ -12,3 +12,4 @@ C:\DOTnetproj\Proj\AdventureWorksAPI\AdventureWorkPersistence\obj\Debug\net8.0\r
 C:\DOTnetproj\Proj\AdventureWorksAPI\AdventureWorkPersistence\obj\Debug\net8.0\AdventureWorkPersistence.pdb
 C:\DOTnetproj\Proj\AdventureWorksAPI\AdventureWorkPersistence\obj\Debug\net8.0\AdventureWorkPersistence.genruntimeconfig.cache
 C:\DOTnetproj\Proj\AdventureWorksAPI\AdventureWorkPersistence\obj\Debug\net8.0\ref\AdventureWorkPersistence.dll
+C:\DOTnetproj\Proj\AdventureWorksAPI\AdventureWorkPersistence\obj\Debug\net8.0\AdventureWorkPersistence.sourcelink.json
