@@ -8,7 +8,33 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "products",
+        "Name": "addProductDto",
+        "Type": "AdventureWorkPersistence.Entities.Product.AddProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AdventureWorksAPI.Controllers.ProductsController",
+    "Method": "AddProductWithoutDto",
+    "RelativePath": "AddProductWithoutDto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
         "Type": "AdventureWorkPersistence.Models.Product",
         "IsRequired": true
       }
@@ -36,6 +62,75 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdventureWorksAPI.Controllers.ProductsController",
+    "Method": "GetProductByName",
+    "RelativePath": "GetProductByName/{productname}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productname",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdventureWorksAPI.Controllers.ProductsController",
+    "Method": "GetProductByNameWithoutQueryExpressionsInGenericway",
+    "RelativePath": "GetProductByNameWithoutQueryExpressionsInGenericway/{productname}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productname",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdventureWorksAPI.Controllers.ProductsController",
+    "Method": "GetProductByproductNameAndProductNumer",
+    "RelativePath": "GetProductByProductNameAndProductNumber",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productnumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "productname",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AdventureWorksAPI.Controllers.ProductsController",
+    "Method": "GetProductByProductNumer",
+    "RelativePath": "GetProductByProductNumer/{productnumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productnumber",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -71,6 +166,37 @@
     "ContainingType": "AdventureWorksAPI.Controllers.ProductsController",
     "Method": "UpdateProduct",
     "RelativePath": "UpdateProduct",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateProductDto",
+        "Type": "AdventureWorkPersistence.Entities.Product.UpdateProductDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AdventureWorksAPI.Controllers.ProductsController",
+    "Method": "UpdateProductWithoutDto",
+    "RelativePath": "UpdateProductWithoutDto",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
