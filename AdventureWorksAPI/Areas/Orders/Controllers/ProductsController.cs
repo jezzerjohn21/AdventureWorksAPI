@@ -21,6 +21,7 @@ namespace AdventureWorksAPI.Areas.Orders.Controllers
             _data = data;
         }
 
+
         //get
         [HttpGet]
         [Route("AdventureWorks/[area]/GetProducts")]
@@ -49,7 +50,9 @@ namespace AdventureWorksAPI.Areas.Orders.Controllers
         {
             return Ok(await _data.GetProductByName(productname));
         }
+
         /*
+         * 
 		This method can be removed because of the use of query Expression to query in a generic way
 		*/
 

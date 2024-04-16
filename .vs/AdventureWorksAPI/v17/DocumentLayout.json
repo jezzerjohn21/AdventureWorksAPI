@@ -22,34 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorksAPI\\Areas\\Orders\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "AdventureWorksAPI\\Areas\\Orders\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorksAPI\\Areas\\Orders\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "AdventureWorksAPI\\Areas\\Orders\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAIUAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T07:36:32.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdventureWorksAPI",
-              "DocumentMoniker": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorksAPI\\AdventureWorksAPI.csproj",
-              "RelativeDocumentMoniker": "AdventureWorksAPI\\AdventureWorksAPI.csproj",
-              "ToolTip": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorksAPI\\AdventureWorksAPI.csproj",
-              "RelativeToolTip": "AdventureWorksAPI\\AdventureWorksAPI.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-16T07:34:31.829Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -72,6 +46,31 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorksAPI\\Areas\\Orders\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "AdventureWorksAPI\\Areas\\Orders\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorksAPI\\Areas\\Orders\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "AdventureWorksAPI\\Areas\\Orders\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAA5wDYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T07:36:32.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdventureWorksAPI.csproj",
+              "DocumentMoniker": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorksAPI\\AdventureWorksAPI.csproj",
+              "RelativeDocumentMoniker": "AdventureWorksAPI\\AdventureWorksAPI.csproj",
+              "ToolTip": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorksAPI\\AdventureWorksAPI.csproj",
+              "RelativeToolTip": "AdventureWorksAPI\\AdventureWorksAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-16T07:34:31.829Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "AddProductDto.cs",
               "DocumentMoniker": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorkPersistence\\Entities\\Product\\AddProductDto.cs",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "AdventureWorkPersistence\\Entities\\Product\\AddProductDto.cs",
               "ViewState": "AQIAAJsAAAAAAAAAAAArwK8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T05:21:11.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T05:21:11.496Z"
             }
           ]
         }
