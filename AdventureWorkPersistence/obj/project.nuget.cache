@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XK/xs1o62ejpGXlmoIu0wq5/u6tt6QVtUHIgZC78eHd6dw0l2iSEAbFNaoGMlUYu7NHGjxDZ6s7PxJddtznknQ==",
+  "dgSpecHash": "Dj/AhGe2MGm2oXejnspuV5mm5y1Eq6cbAc3wcixuFh+NBdeT+FvA+20Wx/dAJ89uEwp5c0hShmjaIQL/pZX3DA==",
   "success": true,
   "projectFilePath": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorkPersistence\\AdventureWorkPersistence.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\hermo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\hermo\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\hermo\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\hermo\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
     "C:\\Users\\hermo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\hermo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\hermo\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

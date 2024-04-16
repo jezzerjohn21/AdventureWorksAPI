@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdventureWorksAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d55967237ac9cabfd1e904a0fc223bf028e219dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+504e04bf522b4b295b3c88a458e12c10b0d9b74c")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdventureWorksAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdventureWorksAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

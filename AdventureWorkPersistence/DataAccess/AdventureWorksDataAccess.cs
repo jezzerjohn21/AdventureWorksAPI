@@ -168,16 +168,16 @@ namespace AdventureWorkPersistence.DataAccess
 			return data;
 		}
 		private IQueryable<Product> GetProductsGenericQuery(List<Expression<Func<Product, bool>>> predicates)
-		{
+		{	
 			var query = context.Product
-						   .AsNoTracking()
-						   .AsQueryable();
+				//add include
+				.AsNoTracking()
+			    .AsQueryable();
 
 			foreach (var predicate in predicates)
 			{ 
 				query = query.Where(predicate);
 			}
-
 			return query;
 
 

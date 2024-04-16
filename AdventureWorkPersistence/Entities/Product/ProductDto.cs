@@ -37,14 +37,37 @@ namespace AdventureWorkPersistence.Entities.Product
 		public decimal ListPrice { get; set; }
 
 
-		public class ProductDTOMapper : Profile {
-			public ProductDTOMapper()
-			{
-				CreateMap<ProductDto, Models.Product>()
-				.ForMember(s => s.ProductID, d => d.MapFrom(x => x.ID))
-				.ForMember(s => s.Name, d => d.MapFrom(x => x.ProductName))
-				.ReverseMap();
+		/*
+		This is for query child tables
+		introduce subcategory
+		*/
+		public string? ProductSubCategoryName { get; set; }
+
+		public string? ProductCategoryName { get; set; }
+	}
+
+		public class ProductDTOMapper : Profile 
+		{
+		public ProductDTOMapper()
+		{
+
+			/*	CreateMap<ProductDto, Models.Product>()
+					.ForMember(s => s.ProductID, d => d.MapFrom(x => x.ID))
+					.ForMember(s => s.Name, d => d.MapFrom(x => x.ProductName))
+					.ReverseMap();*/
+
+			/*
+			This is for query child tables
+			introduce subcategory
+			*/
+
+			CreateMap<Models.Product, ProductDto>()
+			.ForMember(s => s.ID, d => d.MapFrom(x => x.ProductID))
+			.ForMember(s => s.ProductName, d => d.MapFrom(x => x.Name))
+			.ForMember(s => s.ProductSubCategoryName, d => d.MapFrom(x => x.ProductSubcategory == null ? null : x.ProductSubcategory.Name))
+			.ForMember(s => s.ProductCategoryName,
+			d => d.MapFrom(x => x.ProductSubcategory == null ? null : x.ProductSubcategory.ProductCategory == null ? null : x.ProductSubcategory.ProductCategory.Name));
 			}
 		}
 	}
-}
+	
