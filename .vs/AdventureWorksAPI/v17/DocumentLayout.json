@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92D5A3F4-9098-4395-884B-5C257BD9EDDD}|AdventureWorkPersistence\\AdventureWorkPersistence.csproj|c:\\dotnetproj\\proj\\adventureworksapi\\adventureworkpersistence\\dataaccess\\adventureworksdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92D5A3F4-9098-4395-884B-5C257BD9EDDD}|AdventureWorkPersistence\\AdventureWorkPersistence.csproj|solutionrelative:adventureworkpersistence\\dataaccess\\adventureworksdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00626ADB-6218-4079-8D00-AB3A1B3D3AE2}|AdventureWorksAPI\\AdventureWorksAPI.csproj|c:\\dotnetproj\\proj\\adventureworksapi\\adventureworksapi\\areas\\orders\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00626ADB-6218-4079-8D00-AB3A1B3D3AE2}|AdventureWorksAPI\\AdventureWorksAPI.csproj|solutionrelative:adventureworksapi\\areas\\orders\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92D5A3F4-9098-4395-884B-5C257BD9EDDD}|AdventureWorkPersistence\\AdventureWorkPersistence.csproj|c:\\dotnetproj\\proj\\adventureworksapi\\adventureworkpersistence\\dataaccess\\interface\\iadventureworksdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92D5A3F4-9098-4395-884B-5C257BD9EDDD}|AdventureWorkPersistence\\AdventureWorkPersistence.csproj|solutionrelative:adventureworkpersistence\\dataaccess\\interface\\iadventureworksdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00626ADB-6218-4079-8D00-AB3A1B3D3AE2}|AdventureWorksAPI\\AdventureWorksAPI.csproj|c:\\dotnetproj\\proj\\adventureworksapi\\adventureworksapi\\adventureworksapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{00626ADB-6218-4079-8D00-AB3A1B3D3AE2}|AdventureWorksAPI\\AdventureWorksAPI.csproj|solutionrelative:adventureworksapi\\adventureworksapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00626ADB-6218-4079-8D00-AB3A1B3D3AE2}|AdventureWorksAPI\\AdventureWorksAPI.csproj|c:\\dotnetproj\\proj\\adventureworksapi\\adventureworksapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00626ADB-6218-4079-8D00-AB3A1B3D3AE2}|AdventureWorksAPI\\AdventureWorksAPI.csproj|solutionrelative:adventureworksapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92D5A3F4-9098-4395-884B-5C257BD9EDDD}|AdventureWorkPersistence\\AdventureWorkPersistence.csproj|c:\\dotnetproj\\proj\\adventureworksapi\\adventureworkpersistence\\entities\\product\\addproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D5A3F4-9098-4395-884B-5C257BD9EDDD}|AdventureWorkPersistence\\AdventureWorkPersistence.csproj|solutionrelative:adventureworkpersistence\\entities\\product\\addproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorksAPI\\Areas\\Orders\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "AdventureWorksAPI\\Areas\\Orders\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorksAPI\\Areas\\Orders\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "AdventureWorksAPI\\Areas\\Orders\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAIUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T07:36:32.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdventureWorksAPI",
+              "DocumentMoniker": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorksAPI\\AdventureWorksAPI.csproj",
+              "RelativeDocumentMoniker": "AdventureWorksAPI\\AdventureWorksAPI.csproj",
+              "ToolTip": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorksAPI\\AdventureWorksAPI.csproj",
+              "RelativeToolTip": "AdventureWorksAPI\\AdventureWorksAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-16T07:34:31.829Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -47,40 +73,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorksAPI\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "AdventureWorksAPI\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorksAPI\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "AdventureWorksAPI\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAowGcAAABOAAAA",
+              "Title": "AddProductDto.cs",
+              "DocumentMoniker": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorkPersistence\\Entities\\Product\\AddProductDto.cs",
+              "RelativeDocumentMoniker": "AdventureWorkPersistence\\Entities\\Product\\AddProductDto.cs",
+              "ToolTip": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorkPersistence\\Entities\\Product\\AddProductDto.cs",
+              "RelativeToolTip": "AdventureWorkPersistence\\Entities\\Product\\AddProductDto.cs",
+              "ViewState": "AQIAAJsAAAAAAAAAAAArwK8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T02:34:08.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdventureWorksDataAccess.cs",
-              "DocumentMoniker": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorkPersistence\\DataAccess\\AdventureWorksDataAccess.cs",
-              "RelativeDocumentMoniker": "AdventureWorkPersistence\\DataAccess\\AdventureWorksDataAccess.cs",
-              "ToolTip": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorkPersistence\\DataAccess\\AdventureWorksDataAccess.cs",
-              "RelativeToolTip": "AdventureWorkPersistence\\DataAccess\\AdventureWorksDataAccess.cs",
-              "ViewState": "AQIAAJIAAAAAAAAAAAAAwJoAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T01:58:04.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IAdventureWorksDataAccess.cs",
-              "DocumentMoniker": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorkPersistence\\DataAccess\\Interface\\IAdventureWorksDataAccess.cs",
-              "RelativeDocumentMoniker": "AdventureWorkPersistence\\DataAccess\\Interface\\IAdventureWorksDataAccess.cs",
-              "ToolTip": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorkPersistence\\DataAccess\\Interface\\IAdventureWorksDataAccess.cs",
-              "RelativeToolTip": "AdventureWorkPersistence\\DataAccess\\Interface\\IAdventureWorksDataAccess.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA5wBAAAABeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T01:55:26.268Z",
+              "WhenOpened": "2024-04-16T05:21:11.496Z",
               "EditorCaption": ""
             }
           ]

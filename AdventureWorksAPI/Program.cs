@@ -1,13 +1,17 @@
 using AdventureWorkPersistence.DataAccess;
 using AdventureWorkPersistence.DataAccess.Interface;
 using AdventureWorkPersistence.Models;
+using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+		.AddFluentValidation(opts => opts.RegisterValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies()));
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

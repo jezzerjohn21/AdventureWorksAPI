@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/0dm5zpOyG8T4ATu8q0QO92aaIc3MtaeXJdgHqLxzNEgvqIRMECCxEsqR0PB/uZqrh34n8quSLJzBi9SsFzHJA==",
+  "dgSpecHash": "45uwSpyywfqJ5wkrnGEJU2S8ZjCWv9i4GZEH7gX32q8R9Rsjdkd6SXscOD4m+RMv19tt307jNUqLYaaQjewQ/w==",
   "success": true,
   "projectFilePath": "C:\\DOTnetproj\\Proj\\AdventureWorksAPI\\AdventureWorksAPI\\AdventureWorksAPI.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,9 @@
     "C:\\Users\\hermo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\hermo\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\hermo\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\hermo\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
+    "C:\\Users\\hermo\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.1.2\\fluentvalidation.aspnetcore.11.1.2.nupkg.sha512",
+    "C:\\Users\\hermo\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.1.0\\fluentvalidation.dependencyinjectionextensions.11.1.0.nupkg.sha512",
     "C:\\Users\\hermo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\hermo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\hermo\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

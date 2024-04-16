@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "AdventureWorksAPI.Controllers.ProductsController",
+    "ContainingType": "AdventureWorksAPI.Areas.Orders.Controllers.ProductsController",
     "Method": "AddProduct",
-    "RelativePath": "AddProduct",
+    "RelativePath": "AdventureWorks/Orders/AddProduct",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -26,9 +26,9 @@
     ]
   },
   {
-    "ContainingType": "AdventureWorksAPI.Controllers.ProductsController",
+    "ContainingType": "AdventureWorksAPI.Areas.Orders.Controllers.ProductsController",
     "Method": "AddProductWithoutDto",
-    "RelativePath": "AddProductWithoutDto",
+    "RelativePath": "AdventureWorks/Orders/AddProductWithoutDto",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -52,9 +52,9 @@
     ]
   },
   {
-    "ContainingType": "AdventureWorksAPI.Controllers.ProductsController",
+    "ContainingType": "AdventureWorksAPI.Areas.Orders.Controllers.ProductsController",
     "Method": "GetCustomProductsById",
-    "RelativePath": "GetCustomProductsById/{id}",
+    "RelativePath": "AdventureWorks/Orders/GetCustomProductsById",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -62,15 +62,15 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "AdventureWorksAPI.Controllers.ProductsController",
+    "ContainingType": "AdventureWorksAPI.Areas.Orders.Controllers.ProductsController",
     "Method": "GetProductByName",
-    "RelativePath": "GetProductByName/{productname}",
+    "RelativePath": "AdventureWorks/Orders/GetProductByName",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -78,15 +78,15 @@
       {
         "Name": "productname",
         "Type": "System.String",
-        "IsRequired": true
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "AdventureWorksAPI.Controllers.ProductsController",
+    "ContainingType": "AdventureWorksAPI.Areas.Orders.Controllers.ProductsController",
     "Method": "GetProductByNameWithoutQueryExpressionsInGenericway",
-    "RelativePath": "GetProductByNameWithoutQueryExpressionsInGenericway/{productname}",
+    "RelativePath": "AdventureWorks/Orders/GetProductByNameWithoutQueryExpressionsInGenericway",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -94,15 +94,15 @@
       {
         "Name": "productname",
         "Type": "System.String",
-        "IsRequired": true
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "AdventureWorksAPI.Controllers.ProductsController",
+    "ContainingType": "AdventureWorksAPI.Areas.Orders.Controllers.ProductsController",
     "Method": "GetProductByproductNameAndProductNumer",
-    "RelativePath": "GetProductByProductNameAndProductNumber",
+    "RelativePath": "AdventureWorks/Orders/GetProductByProductNameAndProductNumber",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -121,9 +121,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "AdventureWorksAPI.Controllers.ProductsController",
+    "ContainingType": "AdventureWorksAPI.Areas.Orders.Controllers.ProductsController",
     "Method": "GetProductByProductNumer",
-    "RelativePath": "GetProductByProductNumer/{productnumber}",
+    "RelativePath": "AdventureWorks/Orders/GetProductByProductNumer",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -131,15 +131,15 @@
       {
         "Name": "productnumber",
         "Type": "System.String",
-        "IsRequired": true
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "AdventureWorksAPI.Controllers.ProductsController",
+    "ContainingType": "AdventureWorksAPI.Areas.Orders.Controllers.ProductsController",
     "Method": "GetProducts",
-    "RelativePath": "GetProducts",
+    "RelativePath": "AdventureWorks/Orders/GetProducts",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -147,9 +147,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "AdventureWorksAPI.Controllers.ProductsController",
+    "ContainingType": "AdventureWorksAPI.Areas.Orders.Controllers.ProductsController",
     "Method": "GetProductsById",
-    "RelativePath": "GetProductsById/{id}",
+    "RelativePath": "AdventureWorks/Orders/GetProductsById",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -157,15 +157,15 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "AdventureWorksAPI.Controllers.ProductsController",
+    "ContainingType": "AdventureWorksAPI.Areas.Orders.Controllers.ProductsController",
     "Method": "UpdateProduct",
-    "RelativePath": "UpdateProduct",
+    "RelativePath": "AdventureWorks/Orders/UpdateProduct",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -194,9 +194,9 @@
     ]
   },
   {
-    "ContainingType": "AdventureWorksAPI.Controllers.ProductsController",
+    "ContainingType": "AdventureWorksAPI.Areas.Orders.Controllers.ProductsController",
     "Method": "UpdateProductWithoutDto",
-    "RelativePath": "UpdateProductWithoutDto",
+    "RelativePath": "AdventureWorks/Orders/UpdateProductWithoutDto",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,

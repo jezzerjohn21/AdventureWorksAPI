@@ -1,4 +1,6 @@
-﻿using AutoMapper;
+﻿using AdventureWorkPersistence.Models;
+using AutoMapper;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -19,6 +21,11 @@ namespace AdventureWorkPersistence.Entities.Product
 		/// <summary>
 		/// Name of the product.
 		/// </summary>
+
+
+		///Add Validation using attribute and is required to existing end poinst
+		[Required(ErrorMessage = "Product Name is Required")]
+		[StringLength(50, ErrorMessage = "Product name is Too Long")]
 		public string ProductName { get; set; } = null!;
 
 		/// <summary>
@@ -129,12 +136,17 @@ namespace AdventureWorkPersistence.Entities.Product
 		/// <summary>
 		/// ROWGUIDCOL number uniquely identifying the record. Used to support a merge replication sample.
 		/// </summary>
-		public Guid rowguid { get; set; }
+		/// 
+
+		
+		/*
+		 * It can be remove to optimize add validation using attributes and fluent validation 
+		 * public Guid rowguid { get; set; }
 
 		/// <summary>
 		/// Date and time the record was last updated.
 		/// </summary>
-		public DateTime ModifiedDate { get; set; }
+		public DateTime ModifiedDate { get; set; }*/
 	}
 	public class AddProductDTOMapper : Profile
 	{
@@ -146,4 +158,20 @@ namespace AdventureWorkPersistence.Entities.Product
 			.ReverseMap();
 		}
 	}
+
+	public class AddProductDtoValidation : AbstractValidator<AddProductDto>
+	{
+        public AddProductDtoValidation(AdventureWorksDBContext context)
+        {
+			RuleFor(s => s.ProductNumber)
+				.Must((args, ProductNumber) => ! context.Product.Any(x => x.ProductNumber == args.ProductNumber))
+				.WithMessage("Product Number Already Exist");		
+
+			RuleFor(s => s.ProductName)
+				.Must((args, ProductName) => !context.Product.Any(x => x.Name == args.ProductName))
+				.WithMessage("Product Name Already Exist");
+		}
+    }
+	
+
 }
